@@ -47,3 +47,80 @@ body {
     margin: 10px 0 0;
     background: #1f1f1f;
     border-radius: 8px;
+}
+
+.navbar li {
+    padding: 10px;
+    border-bottom: 1px solid #333;
+}
+
+.navbar li:last-child {
+    border-bottom: none;
+}
+
+/* ====== CONTENIDO ====== */
+.content {
+    padding: 20px;
+}
+
+.card {
+    background: #1c1c1c;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 204, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+.card h2 {
+    color: #ffcc00;
+}
+
+.card p {
+    line-height: 1.6;
+}
+
+.btm {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #ffcc00;
+    color: #000;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.btm:hover {
+    background: #e6b800;
+}
+
+/* ====== IMÁGENES ====== */
+img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    display: block;
+    margin: 10px 0 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+/* ====== FOOTER ====== */
+.site-footer {
+    text-align: center;
+    padding: 20px;
+    background: #141414;
+}
+
+.site-footer .card {
+    display: inline-block;
+    max-width: 350px;
+}
+
+a {
+    color: #ffcc00;
+}
+
+a:hover {
+    text-decoration: underline;
+}
