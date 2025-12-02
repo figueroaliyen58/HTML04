@@ -1,0 +1,6 @@
+/* Reiniciar el navegador para evitar diferencia de estilos */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
